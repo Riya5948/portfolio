@@ -209,7 +209,7 @@ section{
 
 .btn-box{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 320px;
     height: 45px;
     margin-top: 1rem;
@@ -1092,7 +1092,7 @@ topHeader.sticky {
     
     /* Reduce top margin for home section */
     .home {
-        padding-top: 50px; /* Adjust this value for less space at the top */
+        padding-top: 70px; /* Adjust this value for less space at the top */
         padding-bottom: 50px; /* Adjust this value for less space at the bottom */
     }
 
