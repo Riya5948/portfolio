@@ -1044,7 +1044,7 @@ topHeader.sticky {
 
 /*break points*******************************************************/
 
-/*@media(max-width:991px){
+@media(max-width:991px){
     header,
     header.sticky{
         padding: 15px 5%;
@@ -1067,6 +1067,11 @@ topHeader.sticky {
     .home-content{
         margin-top: 5rem;
     }
+
+    .home{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
     .social-icons{
         margin-top: 2rem;
     }
@@ -1076,57 +1081,7 @@ topHeader.sticky {
     .col-md-offset-1 {
         margin-left: 0;
     }
-}*/
-
-@media(max-width: 991px) {
-    /* Adjust header padding for mobile */
-    header,
-    header.sticky {
-        padding: 15px 5%;
-    }
-    
-    /* Adjust section padding to reduce space */
-    section {
-        padding: 50px 5%;
-    }
-    
-    /* Reduce top margin for home section */
-    .home {
-        padding-top: 70px; /* Adjust this value for less space at the top */
-        padding-bottom: 50px; /* Adjust this value for less space at the bottom */
-    }
-
-    /* Keep content aligned properly */
-    .home-content {
-        margin-top: 0; /* Adjust if you still see too much space above the content */
-        margin-bottom: 0; /* Adjust if there is still unwanted space at the bottom */
-    }
-
-    /* Adjust home section grid */
-    .home {
-        min-height: auto;
-        grid-template-columns: 1fr;
-        grid-gap: 2em; /* Reduce grid gap if there's too much space between columns */
-    }
-
-    /* Adjust button container for more compact look */
-    .btn-box {
-        width: 100%; /* Adjust for mobile */
-        margin-top: 1rem;
-    }
-
-    /* Adjust social icons spacing */
-    .social-icons {
-        margin-top: 2rem;
-        justify-content: center; /* Align icons more compactly */
-    }
-
-    /* Adjust other specific section spacing if needed */
-    .img-box img {
-        margin-top: 1rem; /* Adjust top margin */
-    }
 }
-
 
 @media(max-width:768px){
     #menu-icon{
