@@ -127,11 +127,11 @@ a {
 }
 
 section{
-    padding: 100px 10%;
+    padding: 60px 10%;
 }
 
 .home{
-    min-height: 100vh;
+    min-height: calc(100vh - 60px); /* Reduced min-height */
     height: 100%;
     width: 100%;
     display: grid;
